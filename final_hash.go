@@ -54,6 +54,6 @@ func finalPod(b []byte) []byte {
 	hp.Put(h)
 
 	copy(dst[:], sum)
-	return sum
+	return dst[:]
 }
 
