@@ -1,5 +1,4 @@
 package cryptonight
-
 import (
 	"crypto/sha512"
 	"hash"
@@ -46,6 +45,7 @@ func (cc *cache) finalHash() []byte {
 }
 
 func finalPod(b []byte) []byte {
+	var dst [32]byte
 	hp := hashPool[b[0]&0x0b]
 	h := hp.Get().(hash.Hash)
 	h.Reset()
@@ -53,5 +53,7 @@ func finalPod(b []byte) []byte {
 	sum := h.Sum(nil)
 	hp.Put(h)
 
+	copy(dst[:], sum)
 	return sum
 }
+
