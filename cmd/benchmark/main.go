@@ -1,8 +1,8 @@
-package main // import "github.com/ngin-network/cryptonight-go/cmd/cnhash"
+package main // import "github.com/ngchain/cryptonight-go/cmd/cnhash"
 
 import (
 	"fmt"
-	"github.com/ngin-network/cryptonight-go"
+	"github.com/ngchain/cryptonight-go"
 	"runtime"
 	"sync/atomic"
 	"time"

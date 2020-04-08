@@ -1,12 +1,13 @@
 package cryptonight
+
 import (
 	"crypto/sha512"
 	"hash"
 	"sync"
 	"unsafe"
 
-	"github.com/ngin-network/cryptonight-go/groestl"
-	"github.com/ngin-network/cryptonight-go/jh"
+	"github.com/ngchain/cryptonight-go/groestl"
+	"github.com/ngchain/cryptonight-go/jh"
 
 	"github.com/aead/skein"
 	"github.com/dchest/blake256"
@@ -56,4 +57,3 @@ func finalPod(b []byte) []byte {
 	copy(dst[:], sum)
 	return dst[:]
 }
-

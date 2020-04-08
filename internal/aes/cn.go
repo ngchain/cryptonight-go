@@ -5,7 +5,7 @@
 // Since CryptoNight's use of AES is quite non-standard and not intended
 // for encryption, you must use this package this package with care for
 // project that's not CryptoNight associated.
-package aes // import "github.com/ngin-network/cryptonight-go/internal/aes"
+package aes // import "github.com/ngchain/cryptonight-go/internal/aes"
 
 // CnExpandKey expands exactly 10 round keys.
 //

@@ -12,7 +12,7 @@
 // Most comments in the original file are copied as well.
 //
 // In this implementation, we assume all bytes are full.
-package groestl // import "github.com/ngin-network/cryptonight-go/groestl"
+package groestl // import "github.com/ngchain/cryptonight-go/groestl"
 
 import (
 	"hash"

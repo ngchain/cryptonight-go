@@ -1,8 +1,8 @@
 package cryptonight
 
 import (
-	"github.com/ngin-network/cryptonight-go/internal/aes"
-	"github.com/ngin-network/cryptonight-go/internal/sha3"
+	"github.com/ngchain/cryptonight-go/internal/aes"
+	"github.com/ngchain/cryptonight-go/internal/sha3"
 	//"encoding/binary"
 )
 

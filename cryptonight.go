@@ -1,7 +1,7 @@
 // Package cryptonight implements CryptoNight hash function and some of its
 // variant. Original CryptoNight algorithm is defined in CNS008 at
 // https://cryptonote.org/cns/cns008.txt
-package cryptonight // import "github.com/ngin-network/cryptonight-go"
+package cryptonight // import "github.com/ngchain/cryptonight-go"
 
 import (
 	"sync"

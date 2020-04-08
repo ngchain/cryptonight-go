@@ -9,7 +9,7 @@
 //     src/crypto/jh.h
 //
 // Most comments in the original file are copied as well.
-package jh // import "github.com/ngin-network/cryptonight-go/jh"
+package jh // import "github.com/ngchain/cryptonight-go/jh"
 
 import (
 	"encoding/binary"
